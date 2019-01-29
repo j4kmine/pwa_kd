@@ -4,7 +4,7 @@ import { RouterModule, RouteReuseStrategy, Routes } from '@angular/router';
 import {AppComponent} from './app.component';
 import {TransferHttpCacheModule} from '@nguniversal/common';
 import { AppRoutingModule } from './app-routing.module';
-
+import {SharedModule}from './shared/module/shared.module';
 @NgModule({
   declarations: [
     AppComponent
@@ -13,6 +13,7 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule.withServerTransition({appId: 'my-app'}),
     AppRoutingModule,
     TransferHttpCacheModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

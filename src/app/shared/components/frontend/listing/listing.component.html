@@ -1,0 +1,17 @@
+<section class="scrollContent">
+        <div class="container">
+            <div class="row is-flex-row-top">
+            <div class="col-sm-12">
+                <div class="list-scrollcontent">
+                   <app-card-news *ngFor="let data of dataListing" 
+                     [title]="data.title"
+                     [dateSign]="data.dateSign"
+                     [imageDisplay]="data.imageDisplay"
+                   >
+                   </app-card-news>
+                   <app-button></app-button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
