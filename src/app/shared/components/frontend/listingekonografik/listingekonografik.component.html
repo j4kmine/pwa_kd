@@ -1,0 +1,10 @@
+<section class="homeEkonografik">
+    <section class="ekonoThreeImg">
+            <ul>
+                <li *ngFor="let data of dataListing" >
+                    <app-card-ekonografik [image]="data.image"></app-card-ekonografik>
+                </li>
+            </ul>
+    </section>
+    <app-button></app-button>
+</section>
