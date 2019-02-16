@@ -2,10 +2,12 @@
     <div class="container">
     <div class="second-head-left pull-left">
         <ol class="breadcrumb">
-        <li><a href="index.html">{{firstelement}}</a></li>
-        <li class="active">{{childelement}}</li>
+            <h4 ><a href="">Home</a></h4>
+            <span class="separator" >></span>
+            <span *ngIf="category != ''"><h4>{{category}}</h4></span>
+            <span *ngIf="topic != ''"><h4>{{topic}}</h4></span>
+            <span *ngIf="tags != ''"><h4>{{tags}}</h4></span>
         </ol>
     </div>
-    <div class="second-head-right"></div>
-    </div>
+    <div class="second-head-right"></div></div>
 </div>

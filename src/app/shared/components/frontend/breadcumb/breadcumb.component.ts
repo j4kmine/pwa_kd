@@ -8,6 +8,8 @@ import { Component, OnInit,Input } from '@angular/core';
 export class BreadCumbComponent implements OnInit {
   @Input() firstelement:string="Home"
   @Input() childelement:string="Berita"
+  @Input() topic:string=""
+  @Input() tags:string=""
   constructor() { }
 
   ngOnInit() {

@@ -10,22 +10,26 @@ export class ListingComponent implements OnInit {
     {
       'title':'Petronusa Gugat SKK Migas soal Status Blok Selat Panjang',
       'dateSign':'Hari ini, 8.20 WIB',
-      'imageDisplay':'https://source.unsplash.com/300x128/?economic'
+      'imageDisplay':'https://source.unsplash.com/300x128/?economic',
+      'topic':'Digital'
     },
     {
       'title':'Petronusa Gugat SKK Migas soal Status Blok Selat Panjang',
       'dateSign':'Hari ini, 8.20 WIB',
-      'imageDisplay':'https://source.unsplash.com/300x128/?economic'
+      'imageDisplay':'https://source.unsplash.com/300x128/?economic',
+      'topic':'Digital'
     },
     {
       'title':'Petronusa Gugat SKK Migas soal Status Blok Selat Panjang',
       'dateSign':'Hari ini, 8.20 WIB',
-      'imageDisplay':'https://source.unsplash.com/300x128/?economic'
+      'imageDisplay':'https://source.unsplash.com/300x128/?economic',
+      'topic':'Digital'
     },
     {
       'title':'Petronusa Gugat SKK Migas soal Status Blok Selat Panjang',
       'dateSign':'Hari ini, 8.20 WIB',
-      'imageDisplay':'https://source.unsplash.com/300x128/?economic'
+      'imageDisplay':'https://source.unsplash.com/300x128/?economic',
+      'topic':'Digital'
     }
   ]
   constructor() { }
