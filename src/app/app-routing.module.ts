@@ -14,6 +14,7 @@ const routes: Routes = [
    { path: 'analisis', loadChildren: './analisis/analisis.module#AnalisisModule'},
    { path: 'berita/:tahun/:bulan/:tanggal/:slug/:page', loadChildren: './detailberita/detailberita.module#DetailberitaModule'},
    { path: 'opini/:tahun/:bulan/:tanggal/:slug/:page', loadChildren: './detailopini/detailopini.module#DetailopiniModule'},
+   { path: 'infografik/:tahun/:bulan/:tanggal/:slug/:page', loadChildren: './detailinfografik/detailinfografik.module#DetailinfografikModule'},
 ]
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
