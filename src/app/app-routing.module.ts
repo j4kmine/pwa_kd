@@ -12,6 +12,8 @@ const routes: Routes = [
    { path: 'indeks', loadChildren: './indeks/indeks.module#IndeksModule'},
    { path: 'search', loadChildren: './search/search.module#SearchModule'},
    { path: 'analisis', loadChildren: './analisis/analisis.module#AnalisisModule'},
+   { path: 'berita/:tahun/:bulan/:tanggal/:slug/:page', loadChildren: './detailberita/detailberita.module#DetailberitaModule'},
+   { path: 'opini/:tahun/:bulan/:tanggal/:slug/:page', loadChildren: './detailopini/detailopini.module#DetailopiniModule'},
 ]
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
