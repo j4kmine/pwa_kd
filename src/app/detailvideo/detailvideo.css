@@ -1,0 +1,162 @@
+.title-detail{
+    margin-top:15px;
+    margin-bottom:20px;
+}
+.title-detail h1{
+    font-size: 32px;
+}
+.artikel-info{
+    line-height: 25px;
+}
+
+.date_published{
+    font-size: 14px;
+}
+
+.social-share{
+    margin-bottom:10px;
+}
+figure{
+    margin-bottom: 5px;
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-right:5px;
+  }
+
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.caption-image{
+    font-size: 12px;
+    line-height: 15px;
+    color: #808080;
+    margin-bottom: 20px;
+}
+
+.artikel-body p {
+    margin-bottom: 20px;
+}
+
+.baca-juga{
+    border-top:6px solid #2F4F4F;
+    line-height:25px;
+    margin-bottom:15px;
+}
+
+.title-bacajuga{
+    font-weight: 700;
+    margin:10px 0px;
+}
+
+.list-bacajuga{
+    margin:5px 0px;
+    border-bottom:1px solid gray;
+}
+
+.tags-detail{
+    padding-left: 0px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+    margin-top:35px;
+}
+.tags-detail li{
+    display: inline;
+    margin-left: 10px;
+}
+.tags-detail li a{
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    color: #111;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.list-terkait{
+    margin-top:25px;
+    border-top:10px solid #DCDCDC;
+    padding-top: 15px;
+}
+
+.newsletter-box{
+    margin-top:20px;
+}
+
+.form-newsletter{
+    margin-top:20px;
+}
+
+.topiclist{
+    display: inline;
+    margin-right: 2px;
+    font-size: 14px;
+}
+
+.email-newsletter{
+    width: 70%;
+    height: 40px;
+    padding: 5px;
+    margin-right: 3%;
+    border-radius: 5px;
+    border-style: none;
+    box-sizing:border-box;
+    border:1px solid lightgray;
+}
+
+#btn-newsletter{
+    width: 25%;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    box-sizing:border-box;
+    border:1px solid lightgray;
+    color: #fff;
+    background-color: #da7b00;
+}
+
+.title-category{
+    color: #778899;
+    margin-top:20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.artikel-summary p{
+    margin-bottom:20px;
+    font-size: 16px;
+}
+
+.editor-opini{
+    color: #808080;
+}
+
+.date_publish_video{
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.artikel-video{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
