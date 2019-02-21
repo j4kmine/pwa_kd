@@ -10,7 +10,18 @@
                 </div>
             </div>
         </div>
-        
+        <div class="container">
+                <section class="formSearch otherStyle">
+                        <form id="searchindeks" method="post" name="cari">
+                           <div class="row">
+                              <div class="col-md-10 no-padding-right col-sm-6 padding-mm-right-15">
+                                 <div class="form-group"> <input class="form-control" type="text" id="keyword" placeholder="Kata kunci" value="ko"> </div>
+                              </div>
+                              <div class="col-md-2 col-sm-6 tb-no-padding-right padding-mm-right-15"> <a class="btn btn-block btn-blue-pastel" onclick="searchindeks()"><i class="fa fa-search"></i></a> <input class="" type="submit" value="" style="display: none;"> </div>
+                           </div>
+                        </form>
+                     </section>
+        </div>
         <app-listing></app-listing>
         <app-footer></app-footer>
     </div>

@@ -10,8 +10,76 @@
                 </div>
             </div>
         </div>
-        
         <div class="separate-section"></div>
+        <div class="container">
+            <section class="formSearch otherStyle">
+                        <form>
+                          <div class="row">
+                            <div class="col-md-4 no-padding-right col-sm-6 padding-mm-right-15">
+                              <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Kata kunci"/>
+                              </div>
+                            </div>
+                            <div class="col-md-3 no-padding-right col-sm-6 padding-mm-right-15">
+                              <div class="form-group">
+                                <label>
+                                  <select class="form-control">
+                                    <option selected="selected">Pilih Topik..</option>
+                                    <option>Topik Satu</option>
+                                    <option>Topik Dua</option>
+                                    <option>Topik Tiga</option>
+                                  </select>
+                                </label>
+                              </div>
+                            </div>
+                            <div class="col-md-3 no-padding-right col-sm-6 padding-mm-right-15">
+                              <div class="form-group">
+                                <label>
+                                  <select class="form-control">
+                                    <option selected="selected">Pilih Subtopik..</option>
+                                    <option>Topik Satu</option>
+                                    <option>Topik Dua</option>
+                                    <option>Topik Tiga</option>
+                                  </select>
+                                </label>
+                              </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6 tb-no-padding-right padding-mm-right-15"><a class="btn btn-block btn-blue-pastel" href=""><i class="fa fa-search"></i></a></div>
+                          </div>
+                        </form>
+            </section>
+            <div class="box-scheduler"><strong>Filter</strong>
+                <form>
+                  <div class="radio">
+                    <label>
+                      <input class="chooseSchedule" id="sevenDay" type="radio" name="optionsRadios" value="option1">	7 hari terakhir
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input class="chooseSchedule" id="thirdTeen" type="radio" name="optionsRadios" value="option2">	30 hari terakhir
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input class="chooseSchedule" id="pastYear" type="radio" name="optionsRadios" value="option3">	Tahun lalu
+                    </label>
+                  </div>
+                  <div class="form-group">
+                    <label class="width-full" for="fromDate">Dari
+                      <input class="form-control" id="fromDate" type="text" placeholder="dd-mm-yyyy">
+                    </label>
+                  </div>
+                  <div class="form-group">
+                    <label class="width-full" for="toDate">Hingga
+                      <input class="form-control" id="toDate" type="text" placeholder="dd-mm-yyyy">
+                    </label>
+                  </div>
+                  <button class="btn btn-blue-pastel" type="submit">Terapkan</button>
+                  <button class="btn btn-link" type="reset">Hapus filter</button>
+                </form>
+              </div>
+        </div>
         <app-listing></app-listing>
         <app-footer></app-footer>
     </div>
