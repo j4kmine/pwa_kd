@@ -46,8 +46,10 @@
     "@nguniversal/module-map-ngfactory-loader": "^6.0.0",
     "core-js": "^2.4.1",
     "express": "^4.15.2",
+    "jquery": "^3.3.1",
     "reflect-metadata": "^0.1.10",
     "rxjs": "6.3.3",
+    "systemjs": "^3.0.0",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
@@ -55,6 +57,7 @@
     "@angular/cli": "7.1.4",
     "@angular/compiler-cli": "7.1.4",
     "@angular/language-service": "7.1.4",
+    "@types/jquery": "^3.3.29",
     "@types/node": "^8.0.30",
     "codelyzer": "^4.0.2",
     "http-server": "^0.10.0",

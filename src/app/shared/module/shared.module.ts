@@ -8,6 +8,7 @@ import { ListingComponent } from '../components/frontend/listing/listing.compone
 import { CardNewsComponent } from '../components/frontend/card-news/card-news.component';
 import { HeadlineComponent } from '../components/frontend/headline/headline.component';
 import { ButtonComponent } from '../components/frontend/button/button.component';
+import { Sliderekonografik } from '../components/frontend/sliderkonografik/slider.ekonografik.component';
 import { FooterComponent } from '../components/frontend/footer/footer.component';
 import { BreadCumbComponent } from '../components/frontend/breadcumb/breadcumb.component';
 import { CardEkonografikComponent } from '../components/frontend/card-ekonografik/card-ekonografik.component';
@@ -24,6 +25,7 @@ import { CardVideoheadlineComponent } from '../components/frontend/card-videohea
         CardEkonografikComponent,
         ListingEkonografikComponent,
         CardVideoheadlineComponent,
+        Sliderekonografik,
     ],
     imports:[
         CommonModule
@@ -38,6 +40,7 @@ import { CardVideoheadlineComponent } from '../components/frontend/card-videohea
         CardEkonografikComponent,
         ListingEkonografikComponent,
         CardVideoheadlineComponent,
+        Sliderekonografik,
     ] 
 })
 export class SharedModule{
