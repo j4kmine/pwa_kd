@@ -1,6 +1,13 @@
 <div class="contentWrapper">
     <div class="homeKD">
-        <app-breadcumb [topic]="topic"></app-breadcumb>
+        <section class="kategori-berita">
+                <div class="container">
+                    <app-breadcumb [topic]="topic"></app-breadcumb>
+                    <div class="head-and-caption">
+                            <h2>{{topic}}</h2>
+                    </div>
+                </div>
+        </section>
         <div class="separate-section"></div>
         <app-listing></app-listing>
         <app-footer></app-footer>
