@@ -6,6 +6,7 @@ const routes: Routes = [
    { path: 'opini', loadChildren: './category/opini/opini.module#OpiniModule'},
    { path: 'telaah', loadChildren: './category/telaah/telaah.module#TelaahModule'},
    { path: 'video', loadChildren: './category/video/video.module#VideoModule'},
+   { path: 'foto', loadChildren: './category/foto/foto.module#FotoModule'},
    { path: 'ekonografik', loadChildren: './category/ekonografik/ekonografik.module#EkonografikModule'},
    { path: 'topic/:topic', loadChildren: './topic/topic.module#TopicModule'},
    { path: 'tags/:tags', loadChildren: './tags/tags.module#TagsModule'},

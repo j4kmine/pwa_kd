@@ -160,6 +160,26 @@ export class Main {
                                 $(".arrowNavigation5").removeClass("openArrow")
                             })
                         }
+                        (<any>n).slick({
+                            infinite: !1,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            autoplay: !1,
+                            adaptiveHeight: !0,
+                            prevArrow: ".prevArrowNav3",
+                            nextArrow: ".nextArrowNav3",
+                            responsive: [{
+                                breakpoint: 768,
+                                settings: {
+                                    slidesToShow: 1,
+                                    slidesToScroll: 1,
+                                    infinite: !1,
+                                    autoplay: !1,
+                                    prevArrow: ".prevArrowNav3",
+                                    nextArrow: ".nextArrowNav3"
+                                }
+                            }]
+                        }),
                         (<any>r).slick({
                             autoplaySpeed: 1e4,
                             lazyLoad: "progressive",

@@ -1,0 +1,17 @@
+<section class="foto-slider-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="arrowNavigation3"><a class="prevArrowNav3"><i class="fa fa-chevron-left" aria-hidden="true"></i></a><a class="nextArrowNav3"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></div>
+          <div class="foto-slider">
+            <div class="item-slide"  *ngFor="let data of dataListing">
+              <figure><a href=""><img [src]="data.image" alt=""></a></figure>
+              <article><a href="">
+                  <div class="layerBox bigFigure"><span>35</span></div>
+                  <p>{{data.title}}</p></a></article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
