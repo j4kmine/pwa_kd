@@ -14,6 +14,7 @@ const routes: Routes = [
    { path: 'search', loadChildren: './search/search.module#SearchModule'},
    { path: 'analisis', loadChildren: './analisis/analisis.module#AnalisisModule'},
    { path: 'multimedia', loadChildren: './multimedia/multimedia.module#MultimediaModule'},
+   { path: 'telaah/:tahun/:bulan/:tanggal/:slug/:page', loadChildren: './detail/detailtelaah/detailtelaah.module#DetailtelaahModule'},
    { path: 'berita/:tahun/:bulan/:tanggal/:slug/:page', loadChildren: './detail/detailberita/detailberita.module#DetailberitaModule'},
    { path: 'opini/:tahun/:bulan/:tanggal/:slug/:page', loadChildren: './detail/detailopini/detailopini.module#DetailopiniModule'},
    { path: 'infografik/:tahun/:bulan/:tanggal/:slug/:page', loadChildren: './detail/detailinfografik/detailinfografik.module#DetailinfografikModule'},
