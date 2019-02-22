@@ -1,23 +1,15 @@
-<!-- <section>
-        <iframe width="480" height="270" [src]="videoURL()" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-        </iframe>
-</section> -->
 <section class="video-slider-wrapper">
         <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2 col-xs-12">
               <div class="arrowNavigation4"><a class="prevArrowNav4"><i class="fa fa-chevron-left" aria-hidden="true"></i></a><a class="nextArrowNav4"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></div>
               <div class="video-slider">
-                <div class="item image"><span class="loading">Loading...</span>
+                <div class="item image" *ngFor="let data of dataListing" ><span class="loading">Loading...</span>
                   <figure>
-                    <div class="slide-image slide-media"><img class="image-entity" data-lazy="https://cdn1.katadata.co.id/media/images/thumb/2016/08/23/2016_08_23-23_57_33_a73049e32b7c11230c4e2a70cb79a28d_960x640_thumb.jpg"></div>
+                    <div class="slide-image slide-media"><img class="image-entity" [attr.data-lazy]="data.image"></div>
                   </figure><a class="caption" href="kd-video-detail.html"></a>
                 </div>
-                <div class="item image"><span class="loading">Loading...</span>
-                  <figure>
-                    <div class="slide-image slide-media"><img class="image-entity" data-lazy="https://cdn1.katadata.co.id/media/images/thumb/2016/08/23/2016_08_23-23_57_33_a73049e32b7c11230c4e2a70cb79a28d_960x640_thumb.jpg"></div>
-                  </figure><a class="caption" href="kd-video-detail.html"></a>
-                </div>
+              
               </div>
             </div>
           </div>

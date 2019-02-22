@@ -166,7 +166,6 @@ export class Main {
                             speed: 600,
                             prevArrow: ".prevArrowNav4",
                             nextArrow: ".nextArrowNav4",
-                            dots: !0,
                             cssEase: "cubic-bezier(0.87, 0.03, 0.41, 0.9)"
                         }), e("slideSection-telaah"), e("slideSection-analisis"), e("slideSection-databoks"), document.querySelector(".arrowNavigation5"), t("slideSection-telaah"), t("slideSection-analisis"), t("slideSection-databoks")
                     }()
