@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import { Subscription } from 'rxjs';
 import {ActivatedRoute,Params,RouterModule} from '@angular/router';
+import {Main} from '../shared/module/main'
 @Component({
   selector: 'app-indeks',
   templateUrl:'indeks.html',
@@ -16,8 +17,10 @@ export class IndeksComponent {
     // )
   }
   
-  constructor(private route:ActivatedRoute) { }
-
+  constructor(private route:ActivatedRoute,private main:Main) { }
+  ngAfterViewInit(){
+    this.main.loadInputProps()
+  }
   ngOnDestroy(){
     this.subcsription$.unsubscribe()
   }
