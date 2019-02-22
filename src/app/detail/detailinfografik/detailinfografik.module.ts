@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { DetailberitaComponent } from './detailberita.component';
+import { DetailinfografikComponent } from './detailinfografik.component';
 import { CommonModule } from '@angular/common';
-import {SharedModule}from '../shared/module/shared.module';
+import {SharedModule}from '../../shared/module/shared.module';
 
 @NgModule({
   imports: [
@@ -11,11 +11,11 @@ import {SharedModule}from '../shared/module/shared.module';
     RouterModule.forChild([
       {
         path: '',
-        component: DetailberitaComponent,
+        component: DetailinfografikComponent,
         pathMatch: 'full'
       }
     ])
   ],
-  declarations: [DetailberitaComponent]
+  declarations: [DetailinfografikComponent]
 })
-export class DetailberitaModule {}
+export class DetailinfografikModule {}

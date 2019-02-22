@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { DetailopiniComponent } from './detailopini.component';
+import { DetailvideoComponent } from './detailvideo.component';
 import { CommonModule } from '@angular/common';
-import {SharedModule}from '../shared/module/shared.module';
+import {SharedModule}from '../../shared/module/shared.module';
 
 @NgModule({
   imports: [
@@ -11,11 +11,11 @@ import {SharedModule}from '../shared/module/shared.module';
     RouterModule.forChild([
       {
         path: '',
-        component: DetailopiniComponent,
+        component: DetailvideoComponent,
         pathMatch: 'full'
       }
     ])
   ],
-  declarations: [DetailopiniComponent]
+  declarations: [DetailvideoComponent]
 })
-export class DetailopiniModule {}
+export class DetailvideoModule {}
